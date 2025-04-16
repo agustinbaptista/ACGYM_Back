@@ -13,7 +13,7 @@ async function bootstrap() {
 
 
   app.enableCors({
-    origin: ['http://localhost:3000','http://localhost:3005', 'http://localhost:8081'], // Permitir cualquier origen
+    origin: ['http://localhost:3000','http://localhost:3005', 'http://localhost:8081', 'https://acgym-front.vercel.app'], // Permitir cualquier origen
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
     allowedHeaders: 'Authorization, Content-Type, Accept, Origin, X-Requested-With, Content-Type, Accept, Authentication,  Access-control-allow-credentials, Access-control-allow-headers, Access-control-allow-methods, Access-control-allow-origin, User-Agent, Referer, Accept-Encoding, Accept-Language, Access-Control-Request-Headers, Cache-Control, Pragma',
